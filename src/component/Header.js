@@ -15,7 +15,7 @@ const Header=()=>
     <div><a onClick={()=>setwithPagination(!withPagination)}>WithPagination</a></div>
 
   </div>
-  <div className='images-wrapper'>
+  <div className='images-wrapper' style={{marginTop:"20px"}}>
     <img  className='img-css' src={`/demo${activeImage}.jpg`}></img>
   </div>
   {withPagination && <ul style={{display:'flex',justifyContent:'center'}}>{items.map(item=><li style={{textAlign:'center',listStyleType:'none', padding:'2px', border:'1px solid blue',width: '20px',}} onClick={()=>setActiveImage(item)}> {item}</li>)}</ul>}
