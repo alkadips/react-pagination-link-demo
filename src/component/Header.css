@@ -1,0 +1,17 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    background: black;
+    color: white;
+    align-items: center;
+
+}
+.images-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+.img-css{
+    width: 600px;
+    height: 500px;
+}
